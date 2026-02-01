@@ -1,0 +1,27 @@
+LCSC Part,,Component,,Quantity,MOQ Price,,Brand,Amount I need,,
+C38898,,10uF,,5,$0.39 ,,FH,0,,From Previous Project
+C307331,,100nF,,7,$0.41 ,,Samsung,0,,",,"
+C52923,,1uF,,2,$0.33 ,,Samsung,0,,",,"
+C82544,,1N5819HW-7-F,,2,$0.56 ,,DIODES,$0.56 ,,Need
+C5199850,,LESD5D5.0CT1G,,6,$0.74 ,,UMW,$0.74 ,,",,"
+C2290,,Red Led,,1,$0.54 ,,KENTO,0,,From Previous Project
+C49581,,L8050QLT1G,,2,$0.62 ,,LRC,$0.62 ,,Need
+C26083,,1M,,2,$0.08 ,,UNI-ROYAL,$0.00 ,,From Previous Project
+C25905,,5.1K,,5,$0.08 ,,",,",$0.00 ,,",,"
+C140197,,1k,,1,$0.06 ,,FH,$0.00 ,,",,"
+C17168,,0R,,6,$0.09 ,,UNI-ROYAL,$0.00 ,,",,"
+C25744,,10k,,4,$0.08 ,,",,",$0.00 ,,",,"
+C227715,,22.1k,,1,$0.24 ,,Yageo,$0.24 ,,Need
+C137715,,47.5k,,1,$0.14 ,,",,",$0.14 ,,",,"
+C720477,,Switch Button,,2,$0.45 ,,XUNPU,$0.45 ,,",,"
+C3013944,,ESPRESSIF ESP32-S3-WROOM-1U-N8R2,,1,$5 ,,ESPRESSIF,$5 ,,",,"
+C3294699,,3V3 Regulator,,1,$0.69 ,,SGMICRO,$0.69 ,,",,"
+C964632,,CP2102N-A02-GQF,,1,$1.58 ,,SKYWORKS,$1.58 ,,",,"
+C2840393,,Type-C,,2,$1.38 ,,XUNPU,$1.38 ,,",,"
+C496566,,Antenna,,1,$0.37 ,,$0.37 ,$0.37 ,,",,"
+LCSC Shipping ,,,,,,,,$0.79 ,Extra shipment price with previous shipment,
+PCB,,,,,,,,$0.00 ,JLCPCB discount coupon,
+JLCPCB Shipping ,,,,,,,,$8.21 ,,
+,,,,,,,,,,
+,,,,,,,,,,
+,Total Money I am begging for:,,,,20.77,USD,,,,
