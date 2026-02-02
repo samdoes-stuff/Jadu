@@ -52,3 +52,8 @@ PC  <—USB NCM—>  ESP32-S3  <—Wi-Fi STA—>  Router/AP
 ESP will assume This PC is just another client on my Wi-Fi network.
 
 
+After that just go to the ESP-IDF explorer. Click on the Full clean first and then click on build project. It will build the project for you.
+
+<img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/a1d11e7d-ec49-4ec4-986e-041623cc4a1f" />
+
+Then connect the board to you computer and the device should pop up down below. Once you see the board and click on flash the firmware. YOu are done. Now you have a usb wifi adapter.
