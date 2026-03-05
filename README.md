@@ -1,11 +1,11 @@
 # Jadu 
 
-A ESP32-S3-WROOM-1U-N8R2 based micro-controller board. The primary purpose of the board was to use it as a Wi-Fi adapter in public events and for firmware uploading projects that I want to do. Such as making the ESP32-S3 act like a SWD probe, firmware implementation on the SWD protocol, basic DP/AP access, and flash algorithms for nRF52. By this, the ESP32 will be enabled to talk to the host over USB CDC and a custom protocol.
+An ESP32-S3-WROOM-1U-N8R2 based micro-controller board. The primary purpose of the board is to use it as a Wi-Fi adapter in public events and for firmware uploading projects that I want to do. Such as making the ESP32-S3 act like a SWD probe, firmware implementation on the SWD protocol, basic DP/AP access, and flash algorithms for nRF52. With this, the ESP32 will be enabled to talk to the host over USB CDC and a custom protocol.
 
 
 ## Design 
 
-Basically it is the DEVKIT design in smaller size. 
+Basically it is the DEVKIT design in a smaller size. 
 
 <img width="917" height="672" alt="Screenshot 2026-01-31 233028" src="https://github.com/user-attachments/assets/77ad9e6a-1e20-4685-89dd-b19b6ffac092" />
 
@@ -20,7 +20,7 @@ Basically it is the DEVKIT design in smaller size.
 
 ## Firmware 
 
-For flashing, use the ESP32-S3 example project from ESP-IDF: tusb_ncm. The purpose of tusb_ncm is that your computer will see the board as a USB Ethernet class device. But there are some changes that you need to make.
+For flashing, use the ESP32-S3 example project from ESP-IDF: tusb_ncm. The purpose of tusb_ncm is to make your computer see the board as a USB Ethernet class device. But there are some changes that you need to make.
 
 <img width="332" height="343" alt="Screenshot 2026-02-02 000309" src="https://github.com/user-attachments/assets/0813824e-efea-4bc4-9a0b-641cec28f340" />
 
@@ -40,7 +40,7 @@ Change the console routing because you want to flash the firmware with USB-C.
 
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/0e415b43-b2f5-43fe-8f22-b7e6fc41964a" />
 
-Disable the Serial JTAG support. Otherwise it will clash with your output because they use the same USB controller and fight with TinyUSB.
+Disable the Serial JTAG support. Otherwise it will clash with your output because they use the same USB controller and conflict with TinyUSB.
 
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/fb5ec8bb-9c26-4151-a5e0-a57516a34b89" />
 
@@ -55,6 +55,6 @@ After that just go to the ESP-IDF explorer. Click on Full Clean first and then c
 
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/a1d11e7d-ec49-4ec4-986e-041623cc4a1f" />
 
-Then connect the board to your computer and the device should pop up down below. Once you see the board, click on Flash Firmware. You are done.
+Then connect the board to your computer and the device should appear down below. Once you see the board, click on Flash Firmware. You are done.
 
 Now you have a USB Wi-Fi adapter.
